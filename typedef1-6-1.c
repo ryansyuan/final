@@ -6,6 +6,7 @@ struct Person{
   int gender;
   int age;
 };
+
 typedef struct Person per;
 int main(void){
   per p;
