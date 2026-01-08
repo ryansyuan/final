@@ -15,7 +15,7 @@ int main(void){
   scanf("%d", &p.gender);
   printf("Please input ur age:");
   scanf("%d", &p.age);
-  printf("Hi %s\n", p.name");
+  printf("Hi %s\n", p.name);
   if(p.gender==0)
     printf("u r %d year-old woman.\n", p.age);
   else
