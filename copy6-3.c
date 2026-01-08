@@ -40,7 +40,7 @@ int main(){
 
 printf("\n\n");
 system("pause");
-return (0);
+return 0;
 }
 
 void sub(student* p){
