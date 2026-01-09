@@ -22,8 +22,7 @@ int main(void)
 	deal(deck);
 	return 0;
 }
-void fillDeck(Card* const wDeck, const char* wFace[],
-	const char* wSuit[])
+void fillDeck(Card* const wDeck, const char* wFace[], const char* wSuit[])
 {
 	int i;
 	for (i = 0; i <= 51; i++) {
